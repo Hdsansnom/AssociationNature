@@ -28,7 +28,7 @@ header{
     flex-flow: wrap;
     align-items: center;
     position: fixed;
-    background: green;
+    background: whitesmoke;
     /* j'utilise 100% du parent donc de BODY */
     width: 100%;
     top: 0px;
@@ -52,7 +52,7 @@ header div h1{
     font-size: 1.6em;
     font-weight: bolder;
     margin: 0.4em 0 0 0;
-    color: whitesmoke;
+    color: black;
 }
 /* je dimensionne et je positionne le bloc NAV */
 nav{
@@ -81,7 +81,7 @@ nav{
     text-decoration: none;
     font-size: 1,8em;
     font-weight: bolder;
-    color: whitesmoke;
+    color: black;
     margin: 0 0.8em 0 0;
     line-height: 1,2em;
     text-transform: uppercase;
@@ -213,7 +213,7 @@ header nav label{
 
 footer{
     box-sizing: border-box;
-    position: fixed;
+    position: ;
 /* J'utilise 100 % du parent donc de BODY */
     width: 100%;
     top: 84.4vh;
@@ -222,7 +222,7 @@ footer{
     height: 10vh;
     background-color:green;
     box-shadow: -6px -6px 8px gray;
-    z-index: 10;
+    z-index:;
 /* On applique le mode flex à ce conteneur */
     display: flex;
     justify-content: center;
